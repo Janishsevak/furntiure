@@ -21,7 +21,7 @@ export default function ImageSlider({ images, height = "h-screen" }) {
       {/* IMAGE */}
       <img
         src={images[current]}
-        className="w-full h-[98%] md:object-contain transition-all duration-500"
+        className="w-full h-[98%] object-contain transition-all duration-500"
         alt="Slider"
       />
 
