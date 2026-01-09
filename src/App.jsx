@@ -10,33 +10,33 @@ function App() {
   const contactRef = useRef(null);
   const homeref = useRef(null);
   const Drawer_sleve = [
-    "public/page_3.png",
-    "public/page_4.png",
-    "public/page_5.png",
-    "public/page_17.png",
+    "/page_3.png",
+    "/page_4.png",
+    "/page_5.png",
+    "/page_17.png",
     
   ];
   const end_table = [
-    "public/page_7.png",
-    "public/page_8.png",
+    "/page_7.png",
+    "/page_8.png",
    
   ];
   const side_table = [
-    "public/page_10.png",
-    "public/page_11.png", 
-    "public/page_16.png", 
+    "/page_10.png",
+    "/page_11.png", 
+    "/page_16.png", 
 
   ];
   const nested_table = [
-    "public/page_12.png",
-    "public/page_13.png", 
-    "public/page_14.png"
+    "/page_12.png",
+    "/page_13.png", 
+    "/page_14.png"
   ];
   const folding_table = [
-    "public/page_15.png",
+    "/page_15.png",
   ];
   const beside_table=[
-    "public/page_9.png",
+    "/page_9.png",
   ]
 
   return (
@@ -44,7 +44,7 @@ function App() {
       <div className="h-full w-full border-2 ">
         <img
           className="w-full h-full md:object-center object-contain"
-          src="public/page_1.png"
+          src="/page_1.png"
           alt="Mehakart Logo"
         />
       </div>
@@ -70,7 +70,7 @@ function App() {
       <div ref={homeref} className="h-full w-full border-2 mt-2 ">
         <img
           className="w-full h-[98%] md:object-cover object-center"
-          src="public/page_2.png"
+          src="/page_2.png"
           alt="Mehakart Logo"
         />
       </div>
@@ -95,7 +95,7 @@ function App() {
       <div ref={contactRef} className="h-[80%] md:h-full  w-full border-2">
         <img
           className="w-full h-full md:h-[99%] md:object-center object-contain"
-          src="public/page_18.png"
+          src="/page_18.png"
           alt="Mehakart Logo"
         />
       </div>
