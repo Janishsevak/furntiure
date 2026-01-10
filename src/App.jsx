@@ -33,7 +33,7 @@ function App() {
   return (
     
     <div className="relative mt-0 w-full h-screen ">
-       <div className="fixed w-full z-10 md:mt-5   ">
+       <div className="fixed w-full z-20 md:mt-5   ">
           <ul className="flex gap-10 md:justify-end md:mr-10 md:gap-15 ml-3 ">
             <li  onClick={() =>
               homeref.current.scrollIntoView({ behavior: "smooth" })
