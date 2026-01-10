@@ -21,7 +21,7 @@ export default function ImageSlider({ images, height = "h-screen" }) {
       {/* IMAGE */}
       <img
         src={images[current]}
-        className="w-full h-[98%] object-contain transition-all duration-500"
+        className="w-full h-[98%] md:full object-contain transition-all duration-500"
         alt="Slider"
       />
 
@@ -29,7 +29,7 @@ export default function ImageSlider({ images, height = "h-screen" }) {
       {current > 0 && (
         <button
           onClick={prev}
-          className="absolute left-4 top-1/2 -translate-y-1/2  
+          className="absolute top-3 left-3 md:top-1/2 md:left-4 md:-translate-y-1/2  
                               text-black p-3 
                              hover:bg-black/20 rounded-lg"
         >
@@ -41,7 +41,9 @@ export default function ImageSlider({ images, height = "h-screen" }) {
       {current < images.length - 1 && (
         <button
           onClick={next}
-          className="absolute right-4 top-1/2 -translate-y-1/2 
+          className="absolute top-3 right-3              
+      md:top-1/2 md:right-4      
+      md:-translate-y-1/2 
                               text-black p-3 
                              hover:bg-black/20 rounded-lg"
         >
